@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1060px, maximum-scale=1.0" />
+    <meta name="description" content="XENHealth is an open source peer-to-peer digital ERC20 currency on the Ethereum network created by the magical ashes of burned XEN, cherished by Xenians who strive for good health & wellbeing." />
+    <meta name="author" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xen.health/" />
+    <meta property="og:title" content="XENHealth" />
+    <meta property="og:description" content="XENHealth is an open source peer-to-peer digital currency, favored by Xenians who strive for good health & wellbeing" />
+    <meta property="og:image" content="https://dogecoin.com/assets/img/dogecoin-300.png" />
+    <meta name="theme-color" content="#1e4151">
+    <title>MediMochi</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/faviconrbc.png" />
+    <!-- preload webfonts -->
+    <link rel="preload" href="assets/vendor/fa/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/vendor/fa/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendor/fa/css/all.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&display=swap" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles-v2.css" rel="stylesheet" />
+    <!-- js Scripts-->
+    <title>Connect to crypto wallet</title>
+    <link rel="stylesheet" href="assets/css/styles-v2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
+</head>
+
+<body id="page-top">
+    <a class="sr-only" href=".masthead">Skip Navigation</a>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" style="background-color: rgba(240, 231, 219, 0.5) !important;">
+        <h1 class="sr-only">MediMochi</h1>
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    &nbsp;MediMochi <i class="fas fa-home text-primary pe-2"></i></a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary   text-secondary rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span data-i18n="menu">Menu</span>
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#mintmint"><span><i class="fas fa-users text-primary pe-2"></i>&nbsp;Characters 角色介紹</span></a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#wallets"><span><i class="fas fa-scroll text-primary pe-2"></i>&nbsp;Stories 物語</span></a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><span><i class="fas fa-info-circle text-primary pe-2"></i>&nbsp;About 誕生ストーリー</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script>
+    </script>
+  
+    <!-- Masthead-->
+    <section id="home">
+        <header class="masthead bg-primary text-white text-center" style="position:relative;">
+            <div id="particles" style="position:absolute;top:0;bottom:0;left:0;right:0;"></div>
+            <div class="container d-flex align-items-center flex-column">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="masthead-avatar mb-1" style="margin-top:-1rem;" src="assets/img/mochi.png" alt="" />
+                        <div class="col-md-12 text-center">
+                            <h2 class="main-header">MediMochi メディもち</h2>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <h2 class="sub-header">來自台灣的醫療系療癒角色「MediMochi」</h2>
+                            <h2 class="sub-header">正在創作可愛的小細胞們的日常與小小宇宙</h2>
+                            <h2 class="sub-header2">かわいい細胞たちの世界へようこそ</h2>
+                        <div class="col-lg-12 mb-5 mb-lg-0">
+                            <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://twitter.com/xen_health"><i class="fab fa-fw fa-twitter"
+                                aria-label="twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://t.me/XENHealthyLiving"><i class="fab fa-fw fa-telegram"
+                                aria-label="telegram"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/XENHealth/XENHealth.github.io"><i class="fab fa-fw fa-github"
+                                aria-label="twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="/XENHealthLitepaper.pdf"><i class="fas fa-light fa-book"
+                                aria-label="Litepaper"></i></a>
+                        </div>
+                        </div>
+                        <!-- Characters Subsection -->
+                        <div style="text-align:center; margin-top: 12rem;" id="mintmint">
+
+                            <!-- Title -->
+                            <h2 style="color:#da7742; font-size:2.8rem; font-weight:700; margin-bottom:1rem;">
+                                Characters 角色介紹
+                            </h2>
+
+                            <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:2rem;">
+                                小小MediMochi宇宙的可愛細胞朋友
+                            </p>
+
+                            <!-- 2x2 Grid -->
+                            <div class="container">
+                                <div class="row justify-content-center">
+
+                                    <!-- Row 1 -->
+                                    <div class="col-md-5 col-sm-6 mb-5">
+                                        <img src="assets/img/rbc.png" style="width:70%; margin-bottom:1rem;">
+                                        <h4 style="color:#da7742; font-size:22px; font-weight:700;">RBCちゃん ❤️</h4>
+                                        <p style="color:#6e5a50; font-size:20px;">活潑、有元氣，負責運送氧氣的小紅球。</p>
+                                    </div>
+
+                                    <div class="col-md-5 col-sm-6 mb-5">
+                                        <img src="assets/img/wbc.png" style="width:70%; margin-bottom:1rem;">
+                                        <h4 style="color:#da7742; font-size:22px; font-weight:700;">WBCくん ☁️</h4>
+                                        <p style="color:#6e5a50; font-size:20px;">軟綿綿的守護者，保護大家不受傷害。</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="row justify-content-center">
+
+                                    <!-- Row 2 -->
+                                    <div class="col-md-5 col-sm-6 mb-5 text-center">
+
+                                        <!-- Fixed height frame -->
+                                        <div style="height: 330px; display:flex; justify-content:center; align-items:center; overflow:hidden;">
+                                            <img src="assets/img/plt.png" style="width:140%; margin-left:55px; transform:translateX(-5%);">
+                                        </div>
+
+                                        <h4 style="color:#da7742; font-size:22px; font-weight:700; margin-left:20px; margin-top:-3px;">Plateletちゃん ✨</h4>
+                                        <p style="color:#6e5a50; font-size:20px; margin-left:20px;">小巧又會閃閃發亮，專門修補小傷口。</p>
+                                    </div>
+
+                                    <div class="col-md-5 col-sm-6 mb-5">
+                                        <img src="assets/img/hsc.png" style="width:70%; margin-bottom:1rem;">
+                                        <h4 style="color:#da7742; font-size:22px; font-weight:700;">HSCちゃん 🌈</h4>
+                                        <p style="color:#6e5a50; font-size:20px;">彩虹雲朵般的魔法細胞，帶來治癒力量。</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="wallets" style="margin-top: 2em;">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 style="color:#da7742; font-size:2.8rem; font-weight:700; margin-bottom:1rem;">
+                    Stories 物語
+                </h2>
+
+                <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:2rem;">
+                    小小MediMochi宇宙的動人故事時刻
+                </p>
+    
+                <!-- Portfolio Grid Items-->
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="mx-auto">
+                            <div class="img-holder">
+                                <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:0rem;">
+                                The Cells 細胞たち 🧬
+                                </p>
+                                <blockquote class="twitter-tweet" data-lang="en" data-dnt="true">
+                                    <p lang="en" dir="ltr"><a href="https://twitter.com/medimochi/status/2016154290340204877">pic.twitter.com/FV6sKZR073</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="mx-auto">
+                            <div class="img-holder">
+                                <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:0rem;">
+                                The Blood Team 血液チーム 🩸
+                                </p>
+                                <blockquote class="twitter-tweet" data-lang="en" data-dnt="true">
+                                    <p lang="en" dir="ltr"><a href="https://twitter.com/medimochi/status/2016189679687893435">pic.twitter.com/FV6sKZR073</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="mx-auto">
+                            <div class="img-holder">
+                                <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:0rem;">
+                                The Immune Squad 免疫スクワッド 🛡️
+                                </p>
+                                <blockquote class="twitter-tweet" data-lang="en" data-dnt="true">
+                                    <p lang="en" dir="ltr"><a href="https://twitter.com/medimochi/status/2016196365181977028">pic.twitter.com/FV6sKZR073</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="mx-auto">
+                            <div class="img-holder">
+                                <p style="font-size:1.3rem; color:#8a6b5c; margin-bottom:0rem;">
+                                The Healing Crew ヒーリングクルー ✨
+                                </p>
+                                <blockquote class="twitter-tweet" data-lang="en" data-dnt="true">
+                                    <p lang="en" dir="ltr"><a href="https://twitter.com/medimochi/status/2016197030448922836">pic.twitter.com/FV6sKZR073</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-secondary mb-0" style="margin-top: 0em !important;" id="about">
+        <div class="container">
+            <h2 style="color:#da7742; font-size:2.8rem; font-weight:700; margin-bottom:1rem; text-align:center;">
+            About 誕生ストーリー
+            </h2>
+            <p style="font-size:1.3rem; color:#8a6b5c; text-align:center; margin-bottom:4rem;">
+            關於 MediMochi 的小小介紹專區
+            </p>
+
+        <!--Section: FAQ-->
+<div class="row">
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-stethoscope text-primary pe-2"></i> 什麼是 MediMochi？
+        </h6>
+        <p>
+            MediMochi 是一個住在「身體小宇宙」裡的可愛世界。裡面有會害羞、會生氣、會努力工作的麻糬小生物們，每天在你的體內忙進忙出，像一群微小但真心陪伴你的朋友。每個故事都帶著溫度、幽默與一點點魔法。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-syringe text-primary pe-2"></i> MediMochi 的角色從哪裡來？
+        </h6>
+        <p>
+            所有角色皆由腫瘤科醫師親自設計，結合專業醫學背景與輕鬆可愛風格。他們會工作、會偷懶、會煩惱、會為彼此打氣，就像住在體內的一群“超迷你小居民”。所有形象都是「擬人化想像 + 軟萌美學」的結合。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-heart text-primary pe-2"></i> MediMochi 故事靈感從哪裡來？
+        </h6>
+        <p>
+            靈感來源是生活中那些「身體正在默默為你努力」的瞬間。當你累、當你忙、當你覺得快不行時，身體裡的小居民們仍舊不慌不忙地跑來跑去、互相照應。MediMochi 的故事就是把這些溫暖時刻，用可愛的方式呈現出來。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-lungs text-primary pe-2"></i> MediMochi 有哪些主要角色？
+        </h6>
+        <p>
+            MediMochi 的小住民們包括：RBC-chan：紅通通的小太陽，總是帶著能量奔跑。WBC-kun：蓬鬆白白的守護者，行動笨拙又可愛。Platelet-chan：行動最迅速的小麻糬，負責各種突發狀況。HSC-chan：像彩雲一樣會變身，想像力最豐富的孩子。他們一起吵鬧、合作、闖禍、互相照顧，構成了整個 MediMochi 的宇宙。 
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-eye text-primary pe-2"></i> MediMochi 設計這些角色的目的？
+        </h6>
+        <p>
+            因為身體永遠默默陪著你，我們希望把這份陪伴感變得「看得見、摸得到、微笑得出來」。MediMochi 想讓大家覺得：即使生活很複雜，你的體內仍然住著一群努力的小麻糬，永遠站在你這邊。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-tooth text-primary pe-2"></i> 這些角色的風格靈感來自哪裡？
+        </h6>
+        <p>
+            把看不見的東西變成會讓你想抱緊的可愛角色。不講大道理、不講艱深知識，只是用柔軟的方式呈現「身體是你的夥伴」這件事。希望在忙碌或疲憊時，看一眼就能覺得心情舒服一點。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-capsules text-primary pe-2"></i> MediMochi 適合誰？
+        </h6>
+        <p>
+            適合任何想要一點療癒、想微笑一下、想被輕輕擁抱的人。小孩會覺得角色很萌；大人會覺得故事很暖；長輩看到也會覺得心情放鬆。這是一個跨年齡都能感到舒服的世界。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-tablets text-primary pe-2"></i> 我可以分享 MediMochi 的漫畫嗎？
+        </h6>
+        <p>
+            當然可以分享！只要註明出處（@medimochi），你可以把漫畫放在社群網站、教學簡報、醫療衛教、朋友聊天甚至你的個人收藏裡。MediMochi 的精神就是「一起把可愛與溫柔傳出去」。如果你因為某一張小漫畫而微笑了，或覺得「啊，今天的心情被療癒了一點」，那把這份小小的溫度分享出去，就是最棒的支持方式 ❤️ 歡迎一起推廣可愛醫學、讓更多人看見自己身體裡那些努力的小居民。
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-flask text-primary pe-2"></i> MediMochi 宇宙會持續擴張嗎？
+        </h6>
+        <p>
+            會的，而且會像麻糬一樣越拉越長、越變越可愛！新的角色、新的四格故事、季節限定小篇章、甚至有時候會冒出突發番外篇。每個角色都有自己的「心裡版本更新」，RBC-chan 的元氣會不斷增加、WBC-kun 的守護技能會升級、Platelet-chan 可能會出現新任務、HSC-chan 可能會解鎖新變身。這個宇宙不是一次全部做完，而是像生長中的小森林一樣：每天都在慢慢發芽、伸展、連結，你每次回來看，都會遇見一些新的驚喜。MediMochi 的世界會持續擴張，因為你的心裡也還有很多地方可以被可愛填滿 🌈✨
+        </p>
+    </div>
+
+    <div class="col-12 mb-2 text-justify">
+        <h6 class="mb-3 text-primary">
+            <i class="fas fa-microscope text-primary pe-2"></i> 能投稿或建議想看的醫學主題嗎？
+        </h6>
+        <p>
+            非常歡迎！你可以在 Twitter／X (@medimochi) 下面留言、私訊、或在貼文底下許願。MediMochi 很重視來自讀者的靈感，有時候一個小小的留言就會變成新角色，或讓某隻麻糬突然有了新任務、新特技或新劇情。這是一個「一起擴建的小宇宙」，你的想法會像一顆新種子，落在 MediMochi 的世界裡，慢慢發芽成下一篇故事 🌱💗
+        </p>
+    </div>
+</div>
+    <!-- Footer-->
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center" style="padding-top:2rem;">
+        <div class="container">
+            <small style="color: #da7742; font-size:0.95rem; font-weight:600;">🧡 MediMochi Universe © 2026 ✧ Built by XENOCYTE 2026 </small>
+        </div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"
+                aria-label="go back to the top of the page"></i></a>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/vendor/js/particles.min.js"></script>
+    <!-- Internationalization -->
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.messagestore.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.language.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.parser.js"></script>
+    <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <!-- Core theme JS-->
+    <script src="assets/js/scripts-v2.js"></script>
+</body>
+
+</html>
