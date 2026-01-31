@@ -190,12 +190,11 @@ h6,
     font-size: 1.25rem;
 }
 
-.masthead .masthead-avatar {
-    width: 90em;
-}
-
+.masthead .masthead-avatar,
 .masthead .masthead-logo {
-    width: 50em;
+    width: 100%;
+    max-width: 1000px;  /* Or whatever looks best */
+    height: auto;
 }
 
 @media (min-width: 992px) {
