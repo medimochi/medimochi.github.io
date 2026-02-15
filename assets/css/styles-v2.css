@@ -17,10 +17,6 @@ h6,
 }
 
 
-html, body {
-    overflow-x: hidden;
-}
-
 .page-section {
     padding: 6rem 0;
 }
@@ -197,7 +193,7 @@ html, body {
 .masthead .masthead-avatar,
 .masthead .masthead-logo {
     width: 100%;
-    max-width: 100%;;  /* Or whatever looks best */
+    max-width: 100%;  /* Or whatever looks best */
     height: auto;
 }
 
@@ -781,7 +777,3 @@ img {
     border: 2px solid rgba(29, 191, 167, 0.2);
 }
 
-#mainNav {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
