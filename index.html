@@ -340,6 +340,12 @@
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script>
     <!-- Core theme JS-->
     <script src="assets/js/scripts-v2.js"></script>
+    <script>
+    window.addEventListener("orientationchange", function() {
+        document.documentElement.style.width = "100%";
+        document.body.style.width = "100%";
+    });
+    </script>
 </body>
 
 </html>
