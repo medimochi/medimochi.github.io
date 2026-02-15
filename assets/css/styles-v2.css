@@ -193,7 +193,7 @@ h6,
 .masthead .masthead-avatar,
 .masthead .masthead-logo {
     width: 100%;
-    max-width: 100%;  /* Or whatever looks best */
+    max-width: 1000px;  /* Or whatever looks best */
     height: auto;
 }
 
@@ -777,3 +777,17 @@ img {
     border: 2px solid rgba(29, 191, 167, 0.2);
 }
 
+.twitter-tweet {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: hidden !important;
+}
+
+.img-holder {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.twitter-tweet iframe {
+    max-width: 100% !important;
+}
