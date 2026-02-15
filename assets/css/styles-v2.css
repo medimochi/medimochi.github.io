@@ -781,3 +781,7 @@ img {
     border: 2px solid rgba(29, 191, 167, 0.2);
 }
 
+#mainNav {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
